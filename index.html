@@ -656,97 +656,11 @@ body {
     </div>
   </div>
 
-  <p style="font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);margin:24px 0 12px;">Tier 3 — Table stakes</p>
 
-  <div class="adv-row">
-    <div class="adv-num">7</div>
-    <div class="adv-content">
-      <p class="adv-name">Original Brazilian tarot deck + Pix payments</p>
-      <p class="adv-desc">Commission a Brazilian illustrator for 78 cards (~R$8–15K one-time). Every shared card becomes a branded impression. Add Pix integration in month 2 — skipping it caps Brazilian conversion at 40–60% of potential.</p>
-      <div class="adv-tags"><span class="badge badge-table">Table stakes</span></div>
-    </div>
-  </div>
 </section>
 
-<hr class="rule">
 
-<!-- ── SECTION 7: TECH ── -->
-<section class="section" id="tech">
-  <p class="section-label">Section 07</p>
-  <h2 class="section-title">Tech stack</h2>
 
-  <table class="data-table">
-    <thead><tr><th>Layer</th><th>Choice</th><th>Rationale</th></tr></thead>
-    <tbody>
-      <tr><td>Frontend</td><td>React + Vite</td><td>Fast Mini App webview. Telegram SDK integration straightforward.</td></tr>
-      <tr><td>Backend</td><td>Node/Express on Railway</td><td>~$20/mo at MVP scale. Handles user data, AI calls, subscription logic.</td></tr>
-      <tr><td>Database</td><td>Supabase (Postgres)</td><td>Free tier covers MVP. Row-level security for GDPR compliance.</td></tr>
-      <tr><td>AI readings</td><td>Claude API (Anthropic)</td><td>PT-BR and RU cultural quality. Seed content from human astrologer.</td></tr>
-      <tr><td>Payments</td><td>Telegram Payments 2.0 + Pix (month 2)</td><td>Frictionless in-app. Pix via Mercado Pago for Brazil conversion.</td></tr>
-      <tr><td>Analytics</td><td>PostHog</td><td>Works inside webview. Track D7, D30, paywall hits, notification CTR.</td></tr>
-      <tr><td>Identity</td><td>Telegram initData</td><td>Zero-friction silent auth. No signup form. User is already logged in.</td></tr>
-      <tr><td>Push</td><td>Telegram Bot API</td><td>Free. Reliable. 8am daily card notification. Streak reminders.</td></tr>
-    </tbody>
-  </table>
-
-  <div class="callout">
-    <strong>Platform note:</strong> Telegram Mini Apps are webviews — full HTML/CSS/JS, camera, location, and haptics available. No App Store listing. No passive retention from a home screen icon. Re-engagement is entirely via Telegram Bot notifications and channel posts — set up analytics before launch, not after.
-  </div>
-</section>
-
-<hr class="rule">
-
-<!-- ── SECTION 8: 90-DAY ── -->
-<section class="section" id="go90">
-  <p class="section-label">Section 08</p>
-  <h2 class="section-title">90-day plan</h2>
-
-  <table class="data-table">
-    <thead><tr><th>Phase</th><th>Weeks</th><th>Key milestones</th><th>Budget</th></tr></thead>
-    <tbody>
-      <tr>
-        <td>Build</td>
-        <td>1–8</td>
-        <td>MVP live: daily card pull, horoscope, streak, share card, Telegram Payments. Commission card deck + seed content.</td>
-        <td>$3,500–5,500</td>
-      </tr>
-      <tr>
-        <td>Soft launch</td>
-        <td>9–10</td>
-        <td>Open to 3 hand-picked Telegram channels (Brazil). Validate D7 retention target ≥35% before scaling spend.</td>
-        <td>$500–800</td>
-      </tr>
-      <tr>
-        <td>Growth sprint</td>
-        <td>11–13</td>
-        <td>10 channel placements in Brazil + 3 Russian-US diaspora channels. TikTok organic (3 videos/week). Add Pix + AI chat readings.</td>
-        <td>$3,500–5,000</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <div class="card-grid" style="margin-top:20px">
-    <div class="card accent-gold">
-      <p class="card-label">Total 90-day budget</p>
-      <p class="card-val">$8K–15K</p>
-      <p class="card-sub">Tightest viable path. Cut TikTok ads if budget is under $10K — organic first.</p>
-    </div>
-    <div class="card accent-teal">
-      <p class="card-label">North-star metric</p>
-      <p class="card-val">D7 ≥ 35%</p>
-      <p class="card-sub">Fix retention before spending on acquisition. D7 is the leading indicator — DAU and revenue lag it by weeks.</p>
-    </div>
-    <div class="card">
-      <p class="card-label">Month-3 success criteria</p>
-      <p class="card-val">10K DAU</p>
-      <p class="card-sub">35% D7 retention + 2–3% freemium conversion = proof enough to raise or reinvest aggressively.</p>
-    </div>
-  </div>
-
-  <div class="callout coral">
-    <strong>Competitive window:</strong> The Brazilian Telegram Mini App ecosystem is early. No quality PT-BR astrology product exists on the platform today. The window where a local, culturally-rooted product can establish dominance before global players localise properly is approximately 18–24 months. That is the real competitive clock.
-  </div>
-</section>
 
 <!-- FOOTER -->
 <footer class="footer">
@@ -754,7 +668,7 @@ body {
   <div class="footer-note">
     Confidential. For partner discussion only.<br>
     All projections are estimates based on publicly available market data.<br>
-    March 2025
+    March 2026
   </div>
 </footer>
 
